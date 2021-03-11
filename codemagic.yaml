@@ -7,7 +7,7 @@ workflows:
         environment:
             vars:
                 XCODE_WORKSPACE: "mustak"
-                XCODE_SCHEME: "mustak.app"
+                XCODE_SCHEME: "mustak"
             node: latest
         scripts:
             - npm install
