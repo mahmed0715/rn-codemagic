@@ -6,7 +6,7 @@ workflows:
         name: React Native App
         environment:
             vars:
-                XCODE_WORKSPACE: "mustak.xcodeproj"
+                XCODE_WORKSPACE: "mustak"
                 XCODE_SCHEME: "mustak.app"
             node: latest
         scripts:
